@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rqNVmhR46m23QHOlhuWAkThyebCu7GyGiRekzETFkkA=",
+  "Source": "InventoryServer",
+  "BasePath": "_content/InventoryServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

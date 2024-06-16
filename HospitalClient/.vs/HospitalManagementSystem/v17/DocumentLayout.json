@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\realtimecommunicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\realtimecommunicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\dataanalyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\dataanalyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\terry\\onedrive\\desktop\\dev420\\hospital-management-system\\hospitalclient\\hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\realtimecommunicationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\realtimecommunicationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\realtimecommunicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\realtimecommunicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\inventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\inventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\inventoryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\inventoryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\inventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\inventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\dataanalyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\dataanalyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\dataanalyticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\dataanalyticsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\model\\patientvitals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\model\\patientvitals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\model\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\model\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\model\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\model\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB43BC2-A8B1-4355-8910-40F99E9AC959}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RealTimeCommunicationForm.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\RealTimeCommunicationForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\RealTimeCommunicationForm.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\RealTimeCommunicationForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\RealTimeCommunicationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:20:14.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:10:06.799Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RealTimeCommunicationForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\RealTimeCommunicationForm.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\RealTimeCommunicationForm.Designer.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\RealTimeCommunicationForm.Designer.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\RealTimeCommunicationForm.Designer.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAkwGQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:20:01.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RealTimeCommunicationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\RealTimeCommunicationForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\RealTimeCommunicationForm.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\RealTimeCommunicationForm.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\RealTimeCommunicationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:19:51.058Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\InventoryForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\InventoryForm.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\InventoryForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\InventoryForm.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAkwMMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:16:27.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAnalyticsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\DataAnalyticsForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\DataAnalyticsForm.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\DataAnalyticsForm.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\DataAnalyticsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:14:14.695Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Form1.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Form1.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAawC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:20:48.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Form1.Designer.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Form1.Designer.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAhwF0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:28:22.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\InventoryForm.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\InventoryForm.Designer.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\InventoryForm.Designer.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\InventoryForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:15:59.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\InventoryForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\InventoryForm.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\InventoryForm.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\InventoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:15:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataAnalyticsForm.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\DataAnalyticsForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\DataAnalyticsForm.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\DataAnalyticsForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\DataAnalyticsForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:14:57.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataAnalyticsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\DataAnalyticsForm.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\DataAnalyticsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\DataAnalyticsForm.Designer.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\DataAnalyticsForm.Designer.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAArwDoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:14:28.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PatientVitals.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Model\\PatientVitals.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Model\\PatientVitals.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Model\\PatientVitals.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Model\\PatientVitals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:13:30.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Model\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Model\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Model\\InventoryItem.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Model\\InventoryItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:13:10.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardData.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Model\\DashboardData.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Model\\DashboardData.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Model\\DashboardData.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Model\\DashboardData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:12:17.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\terry\\OneDrive\\Desktop\\DEV420\\Hospital-Management-System\\HospitalClient\\HospitalManagementSystem\\Program.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:08:04.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
