@@ -125,6 +125,7 @@
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.0\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
@@ -225,6 +226,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppointmentSchedulingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentSchedulingForm.Designer.cs">
+      <DependentUpon>AppointmentSchedulingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataAnalyticsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +250,12 @@
     <Compile Include="InventoryForm.Designer.cs">
       <DependentUpon>InventoryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MedicalInventoryDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -251,6 +264,12 @@
     <Compile Include="Model\DashboardData.cs" />
     <Compile Include="Model\InventoryItem.cs" />
     <Compile Include="Model\PatientVitals.cs" />
+    <Compile Include="PatientManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientManagementForm.Designer.cs">
+      <DependentUpon>PatientManagementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealTimeCommunicationForm.cs">
@@ -259,8 +278,15 @@
     <Compile Include="RealTimeCommunicationForm.Designer.cs">
       <DependentUpon>RealTimeCommunicationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Users.cs" />
+    <EmbeddedResource Include="AppointmentSchedulingForm.resx">
+      <DependentUpon>AppointmentSchedulingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientManagementForm.resx">
+      <DependentUpon>PatientManagementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

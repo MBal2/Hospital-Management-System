@@ -26,11 +26,22 @@ namespace HospitalManagementSystem.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=THANHLENOVO\\SQLEXPRESS;Initial Catalog=MedicalInventory;Integrated Se" +
-            "curity=True;Encrypt=False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=MedicalInventory;Integrated Security=Tru" +
+            "e;Encrypt=False")]
         public string HospitalConnectionString {
             get {
                 return ((string)(this["HospitalConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=MedicalInventory;Integrated Security=Tru" +
+            "e;TrustServerCertificate=True")]
+        public string MedicalInventoryConnectionString {
+            get {
+                return ((string)(this["MedicalInventoryConnectionString"]));
             }
         }
     }

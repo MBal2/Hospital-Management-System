@@ -23,7 +23,7 @@ namespace HospitalManagementSystem
 
         private void InitializeDatabaseConnection()
         {
-            string connectionString = "Data Source=THANHLENOVO\\SQLEXPRESS;Initial Catalog=MedicalInventory;Integrated Security=True;Encrypt=False";
+            string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=MedicalInventory;Integrated Security=True;Encrypt=False";
             connection = new SqlConnection(connectionString);
             connection.Open();
         }
