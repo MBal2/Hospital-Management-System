@@ -50,6 +50,7 @@
             this.button_add.TabIndex = 2;
             this.button_add.Text = "Add";
             this.button_add.UseVisualStyleBackColor = true;
+            this.button_add.Click += new System.EventHandler(this.button_add_Click);
             // 
             // button_cancel
             // 
@@ -59,6 +60,7 @@
             this.button_cancel.TabIndex = 3;
             this.button_cancel.Text = "Cancel";
             this.button_cancel.UseVisualStyleBackColor = true;
+            this.button_cancel.Click += new System.EventHandler(this.button_cancel_Click);
             // 
             // AppointmentSchedulingForm
             // 
@@ -70,6 +72,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "AppointmentSchedulingForm";
             this.Text = "AppointmentSchedulingForm";
+            this.Load += new System.EventHandler(this.AppointmentSchedulingForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

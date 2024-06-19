@@ -16,5 +16,21 @@ namespace HospitalManagementSystem
         {
             InitializeComponent();
         }
+
+        private void AppointmentSchedulingForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_add_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_cancel_Click(object sender, EventArgs e)
+        {
+
+        }
+        
     }
 }
