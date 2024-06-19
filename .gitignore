@@ -1,3 +1,13 @@
 **/packages/*
 !**/packages/repositories.config
 !.gitignore
+/HospitalClient/HospitalManagementSystem/obj/Debug/**
+/HospitalClient/HospitalManagementSystem/bin/Debug/HospitalManagementSystem.exe
+/HospitalClient/HospitalManagementSystem/bin/Debug/HospitalManagementSystem.pdb
+/HospitalClient/.vs/HospitalManagementSystem/v17/.futdcache.v2
+/HospitalClient/.vs/HospitalManagementSystem/v17/.suo
+/HospitalClient/.vs/HospitalManagementSystem/v17/DocumentLayout.json
+/HospitalClient/.vs/HospitalManagementSystem/FileContentIndex/09e8fd99-196a-4abd-b035-76a8491b41fe.vsidx
+/HospitalClient/.vs/HospitalManagementSystem/FileContentIndex/7210261a-3e93-4647-92bf-55d0aadf7056.vsidx
+/HospitalClient/.vs/HospitalManagementSystem/FileContentIndex/a11ce958-a660-41e6-a7b7-e68754773dbb.vsidx
+/HospitalClient/.vs/HospitalManagementSystem/FileContentIndex/c41bf7f7-ba41-4f08-ae35-0ebbd1741da5.vsidx
