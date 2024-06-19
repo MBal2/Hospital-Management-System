@@ -60,23 +60,20 @@ namespace HospitalManagementSystem
 
         private void gridCombobox() 
         {
-            // Assuming your DataGridView is already bound to a DataTable named dataTable
-
-            // Create a DataGridViewComboBoxColumn for the "Gender" column
+            /// Create a DataGridViewComboBoxColumn for Gender column
             DataGridViewComboBoxColumn genderColumn = new DataGridViewComboBoxColumn();
             genderColumn.HeaderText = "Gender";
-            genderColumn.DataPropertyName = "Gender"; // This should match your DataTable's column name
-            genderColumn.Name = "comboBoxGenderColumn"; // Optional: Set a unique name for the column
-
-            // Add "male" and "female" as options to the combo box column
+            genderColumn.DataPropertyName = "Gender"; 
+            genderColumn.Name = "comboBoxGenderColumn"; 
+            
             genderColumn.Items.AddRange("Male", "Female");
 
-            // Replace the existing "Gender" column with the new combo box column
+            
             int columnIndex = 3; // Find the index of the existing "Gender" column
             GridView.Columns.RemoveAt(columnIndex); // Remove the existing column
             GridView.Columns.Insert(columnIndex, genderColumn); // Insert the combo box column at the same index
 
-            // Ensure the DataGridView reflects changes in data and appearance
+            
             GridView.Refresh();
 
 
@@ -98,10 +95,10 @@ namespace HospitalManagementSystem
             // Update the database to reflect the changes
             this.patientsTableAdapter.Update(medicalInventoryDataSet1.Patients);
 
-            // Optionally, accept changes in the DataSet
+            
             medicalInventoryDataSet1.AcceptChanges();
 
-            // Inform the user or handle success
+            
             MessageBox.Show("Row deleted successfully.");
         }
     }
