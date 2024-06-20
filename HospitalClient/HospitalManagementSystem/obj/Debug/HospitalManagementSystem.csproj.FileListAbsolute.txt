@@ -196,3 +196,6 @@ C:\Users\root\Downloads\hm\HospitalClient\HospitalManagementSystem\obj\Debug\Hos
 C:\Users\root\Downloads\hm\HospitalClient\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
 C:\Users\root\Downloads\hm\HospitalClient\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AppointmentSchedulingForm.resources
 C:\Users\root\Downloads\hm\HospitalClient\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientManagementForm.resources
+C:\Users\terry\OneDrive\Desktop\DEV420\Hospital-Management-System\HospitalClient\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AppointmentSchedulingForm.resources
+C:\Users\terry\OneDrive\Desktop\DEV420\Hospital-Management-System\HospitalClient\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.PatientManagementForm.resources
+C:\Users\terry\OneDrive\Desktop\DEV420\Hospital-Management-System\HospitalClient\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.RealTimeCommunicationForm.resources

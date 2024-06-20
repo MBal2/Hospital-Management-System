@@ -9,20 +9,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.AspNet.SignalR.Client;
+using System.Data.SqlClient;
+using HubConnection = Microsoft.AspNetCore.SignalR.Client.HubConnection;
 
 namespace HospitalManagementSystem
 {
     public partial class RealTimeCommunicationForm : Form
     {
+        private SqlConnection connection;
         private HubConnection hubConnection;
 
         public RealTimeCommunicationForm()
         {
             InitializeComponent();
             InitializeSignalR();
+            InitializeDatabaseConnection();
+            InitializeGridColumns();
         }
 
-        private async void InitializeSignalR()
+        private void InitializeDatabaseConnection()
+        {
+            string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=MedicalInventory;Integrated Security=True;Encrypt=False";
+            connection = new SqlConnection(connectionString);
+        }
+
+            private async void InitializeSignalR()
         {
             hubConnection = new HubConnectionBuilder()
                .WithUrl("http://localhost:5139/inventoryHub")
@@ -39,7 +51,7 @@ namespace HospitalManagementSystem
             {
                 this.Invoke((Action)(() =>
                 {
-                    UpdatePatientVitalsGrid(patientId, vitals);
+                    UpdatePatientVitalsGrid();
                 }));
             });
 
@@ -47,7 +59,7 @@ namespace HospitalManagementSystem
             {
                 this.Invoke((Action)(() =>
                 {
-                    UpdateDashboardGrid(data);
+                    UpdateDashboardGrid();
                 }));
             });
 
@@ -61,28 +73,56 @@ namespace HospitalManagementSystem
             }
         }
 
-        private void UpdatePatientVitalsGrid(string patientId, string vitals)
+        private void InitializeGridColumns()
+        {
+            this.patientVitalsGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+            {
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "PatientId", HeaderText = "Patient ID" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "PatientName", HeaderText = "Patient Name" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Timestamp", HeaderText = "Timestamp" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Vitals", HeaderText = "Vitals" }
+            });
+
+            this.dashboardGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[]
+            {
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "BedId", HeaderText = "Bed ID" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Status", HeaderText = "Status" },
+                new System.Windows.Forms.DataGridViewTextBoxColumn { Name = "Emergency", HeaderText = "Emergency" }
+            });
+        }
+
+        private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Check if the "Patient Monitoring" tab is active
+            if (tabControl.SelectedTab == patientMonitoringTabPage)
+            {
+                UpdatePatientVitalsGrid();
+            }
+            else if (tabControl.SelectedTab == dashboardTabPage)
+            {
+                UpdateDashboardGrid();
+            }
+        }
+
+        private void UpdatePatientVitalsGrid()
         {
             try
             {
-                var vitalsData = JsonSerializer.Deserialize<PatientVitals>(vitals);
+                string query = @"
+            SELECT pv.PatientId, p.Name AS PatientName, pv.Timestamp, pv.Vitals
+            FROM PatientVitals pv
+            JOIN Patients p ON pv.PatientId = p.Id";
 
-                // Check if the patient already exists in the grid
-                var existingRow = patientVitalsGridView.Rows
-                    .Cast<DataGridViewRow>()
-                    .FirstOrDefault(row => row.Cells["PatientId"].Value.ToString() == patientId);
+                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
 
-                if (existingRow != null)
+                patientVitalsGridView.Rows.Clear();
+
+                foreach (DataRow row in dataTable.Rows)
                 {
-                    // Update existing row
-                    existingRow.Cells["PatientName"].Value = vitalsData.PatientName;
-                    existingRow.Cells["Timestamp"].Value = vitalsData.Timestamp;
-                    existingRow.Cells["Vitals"].Value = vitalsData.Vitals;
-                }
-                else
-                {
-                    // Add new row
-                    patientVitalsGridView.Rows.Add(vitalsData.PatientId, vitalsData.PatientName, vitalsData.Timestamp, vitalsData.Vitals);
+                    patientVitalsGridView.Rows.Add(row["PatientId"], row["PatientName"], row["Timestamp"], row["Vitals"]);
                 }
             }
             catch (Exception ex)
@@ -91,17 +131,21 @@ namespace HospitalManagementSystem
             }
         }
 
-        private void UpdateDashboardGrid(string data)
+        private void UpdateDashboardGrid()
         {
             try
             {
-                var dashboardDataList = JsonSerializer.Deserialize<List<DashboardData>>(data);
+                string query = "SELECT BedId, Status, Emergency FROM Dashboard";
+                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
 
                 dashboardGridView.Rows.Clear();
 
-                foreach (var dashboardData in dashboardDataList)
+                foreach (DataRow row in dataTable.Rows)
                 {
-                    dashboardGridView.Rows.Add(dashboardData.BedId, dashboardData.Status, dashboardData.Emergency);
+                    dashboardGridView.Rows.Add(row["BedId"], row["Status"], row["Emergency"]);
                 }
             }
             catch (Exception ex)
@@ -124,6 +168,11 @@ namespace HospitalManagementSystem
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

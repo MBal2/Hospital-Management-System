@@ -40,23 +40,23 @@
         {
             this.tabControl = new System.Windows.Forms.TabControl();
             this.chatTabPage = new System.Windows.Forms.TabPage();
-            this.patientMonitoringTabPage = new System.Windows.Forms.TabPage();
-            this.dashboardTabPage = new System.Windows.Forms.TabPage();
             this.chatMessageTextBox = new System.Windows.Forms.TextBox();
             this.chatSendButton = new System.Windows.Forms.Button();
             this.chatListBox = new System.Windows.Forms.ListBox();
             this.chatUserTextBox = new System.Windows.Forms.TextBox();
+            this.patientMonitoringTabPage = new System.Windows.Forms.TabPage();
             this.patientVitalsGridView = new System.Windows.Forms.DataGridView();
+            this.dashboardTabPage = new System.Windows.Forms.TabPage();
             this.dashboardGridView = new System.Windows.Forms.DataGridView();
-
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.chatTabPage.SuspendLayout();
             this.patientMonitoringTabPage.SuspendLayout();
-            this.dashboardTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.patientVitalsGridView)).BeginInit();
+            this.dashboardTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dashboardGridView)).BeginInit();
             this.SuspendLayout();
-
             // 
             // tabControl
             // 
@@ -68,9 +68,12 @@
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(760, 437);
             this.tabControl.TabIndex = 0;
+            this.tabControl.SelectedIndexChanged += new System.EventHandler(this.tabControl_SelectedIndexChanged);
             // 
             // chatTabPage
             // 
+            this.chatTabPage.Controls.Add(this.label2);
+            this.chatTabPage.Controls.Add(this.label1);
             this.chatTabPage.Controls.Add(this.chatMessageTextBox);
             this.chatTabPage.Controls.Add(this.chatSendButton);
             this.chatTabPage.Controls.Add(this.chatListBox);
@@ -85,9 +88,9 @@
             // 
             // chatMessageTextBox
             // 
-            this.chatMessageTextBox.Location = new System.Drawing.Point(6, 375);
+            this.chatMessageTextBox.Location = new System.Drawing.Point(63, 375);
             this.chatMessageTextBox.Name = "chatMessageTextBox";
-            this.chatMessageTextBox.Size = new System.Drawing.Size(660, 20);
+            this.chatMessageTextBox.Size = new System.Drawing.Size(603, 20);
             this.chatMessageTextBox.TabIndex = 0;
             // 
             // chatSendButton
@@ -105,12 +108,12 @@
             this.chatListBox.FormattingEnabled = true;
             this.chatListBox.Location = new System.Drawing.Point(6, 6);
             this.chatListBox.Name = "chatListBox";
-            this.chatListBox.Size = new System.Drawing.Size(741, 355);
+            this.chatListBox.Size = new System.Drawing.Size(741, 329);
             this.chatListBox.TabIndex = 2;
             // 
             // chatUserTextBox
             // 
-            this.chatUserTextBox.Location = new System.Drawing.Point(6, 349);
+            this.chatUserTextBox.Location = new System.Drawing.Point(63, 346);
             this.chatUserTextBox.Name = "chatUserTextBox";
             this.chatUserTextBox.Size = new System.Drawing.Size(200, 20);
             this.chatUserTextBox.TabIndex = 3;
@@ -153,23 +156,45 @@
             this.dashboardGridView.Size = new System.Drawing.Size(740, 399);
             this.dashboardGridView.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 349);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Name";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 378);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Message";
+            // 
             // RealTimeCommunicationForm
             // 
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.tabControl);
             this.Name = "RealTimeCommunicationForm";
             this.Text = "Real-Time Communication";
-
             this.tabControl.ResumeLayout(false);
             this.chatTabPage.ResumeLayout(false);
             this.chatTabPage.PerformLayout();
             this.patientMonitoringTabPage.ResumeLayout(false);
-            this.dashboardTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.patientVitalsGridView)).EndInit();
+            this.dashboardTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dashboardGridView)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -30,9 +30,9 @@ namespace MedicalInventoryServer
             await Clients.All.SendAsync("SendMessage", user, message);
         }
 
-        public async Task UpdatePatientVitals(string patientId, string vitals)
+        public async Task UpdatePatientVitals()
         {
-            await Clients.All.SendAsync("ReceivePatientVitals", patientId, vitals);
+            await Clients.All.SendAsync("ReceivePatientVitals");
         }
 
         public async Task UpdateDashboard(string data)

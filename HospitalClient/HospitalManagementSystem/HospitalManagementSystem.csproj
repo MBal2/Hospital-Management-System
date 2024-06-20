@@ -297,6 +297,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RealTimeCommunicationForm.resx">
+      <DependentUpon>RealTimeCommunicationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="libmongocrypt.dylib" />
     <None Include="libmongocrypt.so" />
     <None Include="MedicalInventoryDataSet.xsc">
